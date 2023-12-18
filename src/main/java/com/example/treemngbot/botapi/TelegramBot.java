@@ -1,6 +1,8 @@
-package com.example.treemngbot.services;
+package com.example.treemngbot.botapi;
 
 import com.example.treemngbot.config.BotConfig;
+import com.example.treemngbot.services.CategoryService;
+import com.example.treemngbot.services.TGUserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;

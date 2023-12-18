@@ -1,6 +1,6 @@
 package com.example.treemngbot.config;
 
-import com.example.treemngbot.services.TelegramBot;
+import com.example.treemngbot.botapi.TelegramBot;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.event.EventListener;

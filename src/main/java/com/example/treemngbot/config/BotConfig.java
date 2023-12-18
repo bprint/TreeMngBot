@@ -1,6 +1,6 @@
 package com.example.treemngbot.config;
 
-import com.example.treemngbot.services.TelegramBot;
+import com.example.treemngbot.botapi.TelegramBot;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
