@@ -1,4 +1,4 @@
 package com.example.treemngbot.services;
 
-public interface UserService {
+public interface TGUserService {
 }

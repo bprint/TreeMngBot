@@ -14,7 +14,7 @@ public class TelegramBot extends TelegramLongPollingBot {
     @Autowired
     private BotConfig config;
 
-    private UserService userService;
+    private TGUserService TGUserService;
     private CategoryService categoryService;
 
     static final String ERROR_TEXT = "Error occurred: ";
